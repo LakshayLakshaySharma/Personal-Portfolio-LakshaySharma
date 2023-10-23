@@ -20,7 +20,7 @@ nav {
     align-items: center;
     height: 10vh;
     /* background: rgb(120, 96, 243); */
-    background-color: #604D53;
+    background-color: rgb(212, 170, 110);
     color: whitesmoke;
    
 }
@@ -86,12 +86,10 @@ nav ul li a:hover {
     width: 30%;
 } */
 
-.red {
-    color: #604D53;
-}
 
-#element {
-    color: #604D53;
+
+.text-color{
+    color:rgb(212, 170, 110);
 }
 
 /* img {
@@ -184,7 +182,7 @@ nav ul li a:hover {
 }
    
 .skillSection{
-    background:lightblue;
+    background:rgb(230, 206, 173);
     border-radius: 10px;
     padding:10px;
     height:90vh;
@@ -242,7 +240,7 @@ nav ul li a:hover {
 
 
 footer {
-    background-color: #333;
+    background-color: rgb(212, 170, 110);
     color: #fff;
     padding: 50px 0;
   }
@@ -276,10 +274,17 @@ footer {
   }
   
   footer ul li a:hover {
-    color: #f00;
+    color: #c6a72c;
+    text-shadow: 1px 1px 1px black;
   }
   
   footer ul li a i {
     margin-right: 10px;
     font-size: 24px;
   }
+
+  .ws-link{
+    color:#eab476;
+    text-decoration: none;
+  }
+
